@@ -52,7 +52,9 @@ Node a(
           'class': className,
           'style': style,
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node abbr(
         {String? title,
@@ -67,7 +69,9 @@ Node abbr(
         'addr',
         _apply([p, props],
             {'title': title, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node address(
         {String? id,
@@ -80,7 +84,9 @@ Node address(
     h(
         'address',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node area(
         {String? alt,
@@ -128,8 +134,12 @@ Node article(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('article', _apply([p, props], {'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'article',
+        _apply([p, props], {'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node aside(
         {String? id,
@@ -142,7 +152,9 @@ Node aside(
     h(
         'aside',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node audio(
         {bool? autoplay,
@@ -174,7 +186,9 @@ Node audio(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node b(
         {String? id,
@@ -184,8 +198,12 @@ Node b(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('b', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'b',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node base(
         {String? href,
@@ -216,8 +234,12 @@ Node bdi(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('bdi', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'bdi',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node bdo(
         {String? dir,
@@ -232,7 +254,9 @@ Node bdo(
         'bdo',
         _apply([p, props],
             {'dir': dir, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node blockquote(
         {String? cite,
@@ -247,7 +271,9 @@ Node blockquote(
         'blockquote',
         _apply([p, props],
             {'cite': cite, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node body(
         {String? id,
@@ -260,7 +286,9 @@ Node body(
     h(
         'body',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node br() => new SelfClosingNode('br');
 
@@ -304,7 +332,9 @@ Node button(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node canvas(
         {num? height,
@@ -328,7 +358,9 @@ Node canvas(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node cite(
         {String? id,
@@ -341,7 +373,9 @@ Node cite(
     h(
         'cite',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node caption(
         {String? id,
@@ -354,7 +388,9 @@ Node caption(
     h(
         'caption',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node code(
         {String? id,
@@ -367,7 +403,9 @@ Node code(
     h(
         'code',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node col(
         {num? span,
@@ -382,7 +420,9 @@ Node col(
         'col',
         _apply([p, props],
             {'span': span, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node colgroup(
         {num? span,
@@ -397,7 +437,9 @@ Node colgroup(
         'colgroup',
         _apply([p, props],
             {'span': span, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node datalist(
         {String? id,
@@ -410,7 +452,9 @@ Node datalist(
     h(
         'datalist',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node dd(
         {String? id,
@@ -420,8 +464,12 @@ Node dd(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('dd', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'dd',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node del(
         {String? cite,
@@ -445,7 +493,9 @@ Node del(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node details(
         {bool? open,
@@ -460,7 +510,9 @@ Node details(
         'details',
         _apply([p, props],
             {'open': open, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node dfn(
         {String? title,
@@ -475,7 +527,9 @@ Node dfn(
         'dfn',
         _apply([p, props],
             {'title': title, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node dialog(
         {bool? open,
@@ -490,7 +544,9 @@ Node dialog(
         'dialog',
         _apply([p, props],
             {'open': open, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node div(
         {String? id,
@@ -500,8 +556,12 @@ Node div(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('div', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'div',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node dl(
         {String? id,
@@ -511,8 +571,12 @@ Node dl(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('dl', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'dl',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node dt(
         {String? id,
@@ -522,8 +586,12 @@ Node dt(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('dt', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'dt',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node em(
         {String? id,
@@ -533,8 +601,12 @@ Node em(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('em', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'em',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node embed(
         {num? height,
@@ -585,7 +657,9 @@ Node fieldset(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node figcaption(
         {String? id,
@@ -598,7 +672,9 @@ Node figcaption(
     h(
         'figcaption',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node figure(
         {String? id,
@@ -611,7 +687,9 @@ Node figure(
     h(
         'figure',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node footer(
         {String? id,
@@ -624,7 +702,9 @@ Node footer(
     h(
         'footer',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node form(
         {String? accept,
@@ -663,7 +743,9 @@ Node form(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node h1(
         {String? id,
@@ -673,8 +755,12 @@ Node h1(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('h1', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'h1',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node h2(
         {String? id,
@@ -684,8 +770,12 @@ Node h2(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('h2', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'h2',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 Node h3(
         {String? id,
         className,
@@ -694,8 +784,12 @@ Node h3(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('h3', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'h3',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node h4(
         {String? id,
@@ -705,8 +799,12 @@ Node h4(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('h4', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'h4',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node h5(
         {String? id,
@@ -716,8 +814,12 @@ Node h5(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('h5', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'h5',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node h6(
         {String? id,
@@ -727,8 +829,12 @@ Node h6(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('h6', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'h6',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node head(
         {String? id,
@@ -741,7 +847,9 @@ Node head(
     h(
         'head',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node header(
         {String? id,
@@ -754,7 +862,9 @@ Node header(
     h(
         'header',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node hr() => new SelfClosingNode('hr');
 
@@ -782,7 +892,9 @@ Node html(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node i(
         {String? id,
@@ -792,8 +904,12 @@ Node i(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('i', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'i',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node iframe(
         {num? height,
@@ -961,7 +1077,9 @@ Node ins(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node kbd(
         {String? id,
@@ -971,8 +1089,12 @@ Node kbd(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('kbd', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'kbd',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node keygen(
         {bool? autofocus,
@@ -1004,7 +1126,9 @@ Node keygen(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node label(
         {String? for_,
@@ -1028,7 +1152,9 @@ Node label(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node legend(
         {String? id,
@@ -1041,7 +1167,9 @@ Node legend(
     h(
         'legend',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node li(
         {num? value,
@@ -1056,7 +1184,9 @@ Node li(
         'li',
         _apply([p, props],
             {'value': value, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node link(
         {String? crossorigin,
@@ -1102,7 +1232,9 @@ Node main(
     h(
         'main',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node map(
         {String? name,
@@ -1117,7 +1249,9 @@ Node map(
         'map',
         _apply([p, props],
             {'name': name, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node mark(
         {String? id,
@@ -1130,7 +1264,9 @@ Node mark(
     h(
         'mark',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node menu(
         {String? label,
@@ -1154,7 +1290,9 @@ Node menu(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node menuitem(
         {bool? checked,
@@ -1190,7 +1328,9 @@ Node menuitem(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node meta(
         {String? charset,
@@ -1225,8 +1365,12 @@ Node nav(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('nav', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'nav',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node noscript(
         {String? id,
@@ -1239,7 +1383,9 @@ Node noscript(
     h(
         'noscript',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node object(
         {String? data,
@@ -1273,7 +1419,9 @@ Node object(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node ol(
         {bool? reversed,
@@ -1299,7 +1447,9 @@ Node ol(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node optgroup(
         {bool? disabled,
@@ -1323,7 +1473,9 @@ Node optgroup(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node option(
         {bool? disabled,
@@ -1351,7 +1503,9 @@ Node option(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node output(
         {String? for_,
@@ -1377,7 +1531,9 @@ Node output(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node p(
         {String? id,
@@ -1387,8 +1543,12 @@ Node p(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('p', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'p',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node param(
         {String? name,
@@ -1422,7 +1582,9 @@ Node picture(
     h(
         'picture',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node pre(
         {String? id,
@@ -1432,8 +1594,12 @@ Node pre(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('pre', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'pre',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node progress(
         {num? max,
@@ -1457,7 +1623,9 @@ Node progress(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node q(
         {String? cite,
@@ -1472,7 +1640,9 @@ Node q(
         'q',
         _apply([p, props],
             {'cite': cite, 'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node rp(
         {String? id,
@@ -1482,8 +1652,12 @@ Node rp(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('rp', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'rp',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node rt(
         {String? id,
@@ -1493,8 +1667,12 @@ Node rt(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('rt', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'rt',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node ruby(
         {String? id,
@@ -1507,7 +1685,9 @@ Node ruby(
     h(
         'ruby',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node s(
         {String? id,
@@ -1517,8 +1697,12 @@ Node s(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('s', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        's',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node samp(
         {String? id,
@@ -1531,7 +1715,9 @@ Node samp(
     h(
         'samp',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node script(
         {bool? async,
@@ -1561,7 +1747,9 @@ Node script(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node section(
         {String? id,
@@ -1574,7 +1762,9 @@ Node section(
     h(
         'section',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node select(
         {bool? autofocus,
@@ -1606,7 +1796,9 @@ Node select(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node small(
         {String? id,
@@ -1619,7 +1811,9 @@ Node small(
     h(
         'small',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node source(
         {String? src,
@@ -1659,7 +1853,9 @@ Node span(
     h(
         'span',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node strong(
         {String? id,
@@ -1672,7 +1868,9 @@ Node strong(
     h(
         'strong',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node style(
         {String? media,
@@ -1687,7 +1885,9 @@ Node style(
         'style',
         _apply([p, props],
             {'media': media, 'scoped': scoped, 'type': type, 'id': id}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node sub(
         {String? id,
@@ -1697,8 +1897,12 @@ Node sub(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('sub', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'sub',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node summary(
         {String? id,
@@ -1711,7 +1915,9 @@ Node summary(
     h(
         'summary',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node sup(
         {String? id,
@@ -1721,8 +1927,12 @@ Node sup(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('sup', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'sup',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node table(
         {bool? sortable,
@@ -1744,7 +1954,9 @@ Node table(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node tbody(
         {String? id,
@@ -1757,7 +1969,9 @@ Node tbody(
     h(
         'tbody',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node td(
         {num? colspan,
@@ -1783,7 +1997,9 @@ Node td(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node textarea(
         {bool? autofocus,
@@ -1827,7 +2043,9 @@ Node textarea(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node tfoot(
         {String? id,
@@ -1840,7 +2058,9 @@ Node tfoot(
     h(
         'tfoot',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node th(
         {String? abbr,
@@ -1872,7 +2092,9 @@ Node th(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node thead(
         {String? id,
@@ -1885,7 +2107,9 @@ Node thead(
     h(
         'thead',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node time(
         {String? datetime,
@@ -1907,7 +2131,9 @@ Node time(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node title(
         {String? id,
@@ -1920,7 +2146,9 @@ Node title(
     h(
         'title',
         _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node tr(
         {String? id,
@@ -1930,8 +2158,12 @@ Node tr(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('tr', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'tr',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node track(
         {bool? default_,
@@ -1968,8 +2200,12 @@ Node u(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('u', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'u',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node ul(
         {String? id,
@@ -1979,8 +2215,12 @@ Node ul(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('ul', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'ul',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node var_(
         {String? id,
@@ -1990,8 +2230,12 @@ Node var_(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('var', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'var',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node video(
         {bool? autoplay,
@@ -2029,7 +2273,9 @@ Node video(
           'class': className,
           'style': style
         }),
-        []..addAll(c ?? [])..addAll(children ?? []));
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));
 
 Node wbr(
         {String? id,
@@ -2039,5 +2285,9 @@ Node wbr(
         @deprecated Map<String, dynamic> props: const {},
         Iterable<Node>? c: const [],
         @deprecated Iterable<Node>? children: const []}) =>
-    h('wbr', _apply([p, props], {'id': id, 'class': className, 'style': style}),
-        []..addAll(c ?? [])..addAll(children ?? []));
+    h(
+        'wbr',
+        _apply([p, props], {'id': id, 'class': className, 'style': style}),
+        []
+          ..addAll(c ?? [])
+          ..addAll(children ?? []));

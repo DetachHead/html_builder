@@ -14,15 +14,13 @@ abstract class StringRenderer implements Renderer<String> {
   /// If [pretty] is `true` (default), then [whitespace] (default: `'  '`) will be inserted between nodes.
   /// You can also provide a [doctype] (default: `html`).
   factory StringRenderer(
-      {bool html5: true,
-        bool pretty: true,
-        String doctype: 'html',
-        String whitespace: '  '}) =>
+          {bool html5: true,
+          bool pretty: true,
+          String doctype: 'html',
+          String whitespace: '  '}) =>
       pretty == true
           ? new _PrettyStringRendererImpl(
-          html5: html5 != false,
-          doctype: doctype,
-          whitespace: whitespace)
+              html5: html5 != false, doctype: doctype, whitespace: whitespace)
           : new _StringRendererImpl(html5: html5 != false, doctype: doctype);
 }
 
