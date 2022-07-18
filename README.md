@@ -1,6 +1,5 @@
 # html_builder
 [![Pub](https://img.shields.io/pub/v/html_builder.svg)](https://pub.dartlang.org/packages/html_builder)
-[![build status](https://travis-ci.org/thosakwe/html_builder.svg)](https://travis-ci.org/thosakwe/html_builder)
 
 Build HTML AST's and render them to HTML.
 
